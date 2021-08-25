@@ -1,0 +1,272 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.window {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(https://images.unsplash.com/photo-1531436107035-40b2e85b7a1b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8c25vdyUyMG1vdW50YWlufGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80);
+  background-size: cover;
+  color:black;
+  text-align: center;
+  transition: 0.3s ease-in;
+}
+
+.top-wrapper h1 {
+  opacity: 0.9;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  opacity: 0.9;
+  margin-bottom: 3px;
+  font-size: 20px;
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+.btn {
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+  padding: 15px 40px;
+  background-color:grey;
+  cursor: pointer;
+  box-shadow: 0 7px rgb(58, 56, 56);
+}
+
+.instagram {
+  background-color:#dd3692;
+}
+
+.facebook {
+  background-color:#526fad;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color:#6db6ee;
+  margin-right: 10px;
+}
+
+
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(129, 135, 138, 0.863);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.header-left {
+  float: left;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color:black;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.lesson-icon {
+  display:flex;
+  flex :auto;
+  justify-content: center;
+}
+
+.lesson-icon img {
+  width: 80px;
+}
+.lesson-icon span{
+  font-size: 80px;
+}
+
+.lesson-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+.heading h2{
+  font-weight: normal;
+  color:black
+}
+.heading h3{
+  font-weight: normal;
+  color: black;
+}
+
+.lesson {
+  float: left;
+  width: 33%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  color: white;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color:black;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+  background-image:url(https://cdn.wallpapersafari.com/75/59/LmUczs.jpg);
+}
+.heading-top{
+  padding-top: 85px;
+  padding-bottom: 50px;
+  color:black;
+}
+.heading-top p{
+  font-weight: bold;
+}
+.heading-bot{
+  color:black;
+}
+
+
+
+.btn:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer img {
+  width: 40px;
+}
+
+footer p {
+  color:black;
+  font-size: 12px;
+}
+
+footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.footer-window {
+  color: black;
+  float:left;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.dark-mode {
+  background-color: black;
+}
+.dark-mode .lesson p {
+color: #b3aeb5;
+}
+.dark-mode .lesson-icon span{
+  color:white;
+}
+.dark-mode .lesson-wrapper{
+  background-color:black;
+}
+.dark-mode .top-wrapper{
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2b253f95-9dd4-4143-a8d8-cd7c00abdf40/dec6cl5-39908449-5bb9-4617-afb3-b57dd28659c1.png/v1/fill/w_1280,h_720,q_80,strp/dark_mountain_scenery_by_aomxart_dec6cl5-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvMmIyNTNmOTUtOWRkNC00MTQzLWE4ZDgtY2Q3YzAwYWJkZjQwXC9kZWM2Y2w1LTM5OTA4NDQ5LTViYjktNDYxNy1hZmIzLWI1N2RkMjg2NTljMS5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.XpspwBSpJGMMk4Rs2de9H7LVbiJ3QWcgWOk-hICVOnE);
+}
+.dark-mode .instagram {
+  background-color:#dd3692;
+}
+
+.dark-mode .facebook {
+  background-color:#526fad;
+  margin-right: 10px;
+}
+
+.dark-mode .twitter {
+  background-color:#6db6ee;
+  margin-right: 10px;
+}
+
+.dark-mode .message-wrapper{
+  background-image: url(https://img.redbull.com/images/c_fill,w_1500,h_1000,g_auto,f_auto,q_auto/redbullcom/2014/05/09/1331650249848_2/thomas-feurstein-christoph-sch%C3%B6ch);
+}
+.dark-mode .heading h2 {
+  color:#b3aeb5;
+}
+.dark-mode .heading h3 {
+  color:#b3aeb5;
+}
+.dark-mode .text-contents {
+  color: #b3aeb5;
+}
+.dark-mode .footer-window h1{
+  color: #b3aeb5;
+}
