@@ -1,12 +1,13 @@
 /* For Tablets */
 @media all and (max-width: 1000px) {
-    .lesson {
+    .window {
       width: 50%;
       margin-bottom: 50px;
     }
     
     .top-wrapper h1 {
       font-size: 32px;
+      text-align: center;
     }
     
     .heading h2 {
@@ -16,9 +17,21 @@
   
   /* For phones */
   @media all and (max-width: 670px) {
-    .lesson {
+    .window {
       width: 100%;
     }
+  
+    .top-wrapper h1 {
+      font-size: 24px;
+      line-height: 36px;
+    }
+    
+    .top-wrapper p {
+      font-size: 14px;
+      line-height: 20px;
+      text-align: center;
+    }
+    
     
     footer {
       text-align: center;
@@ -48,15 +61,7 @@
       display:block;
     }
     
-    .top-wrapper h1 {
-      font-size: 24px;
-      line-height: 36px;
-    }
-    
-    .top-wrapper p {
-      font-size: 14px;
-      line-height: 20px;
-    }
+   
   }
 
-  
+ 
